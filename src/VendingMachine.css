@@ -1,4 +1,23 @@
 .VendingMachine {
+    text-align: center;
     background-image: url("https://cdn11.bigcommerce.com/s-xun5w23utl/images/stencil/1280x1280/products/7067/12026/evoke-6-snack-vending-machine__47319.1607762904.jpg?c=1");
-    background-color: #cccccc;
+    height: 85vh;
+    /* width: 400px; */
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.VendingMachine-link {
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.VendingMachine-container {
+    text-align: end;
+    margin: auto 175px auto;
+    padding-top: 175px;
 }
